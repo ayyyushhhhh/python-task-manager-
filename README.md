@@ -1,97 +1,7 @@
-# Global Digital Corps - Software Engineering Test Problem | Priority list
+# Task Manager
 
-Thanks for applying to the Global Digital Corps!
 
-In this step we want to see how you implement a command-line (CLI) program that lets you manage your tasks.
-
-The specification for this problem is written down as tests. Since we haven’t actually implemented anything, the tests are currently failing. You have to solve the problem by implementing the application and getting all the tests to pass.
-
-Here's how it should work when you're done:
-
-[![TASK-CLI](https://res.cloudinary.com/sv-co/image/upload/v1638058186/GDC/SE/Admission/gdc-home-page_b6s3go.png)](https://vimeo.com/648902045)
-## Getting started
-
-1. Install Python: Python is usually installed by default on most modern systems. To check what your currently have, open a terminal and run the following command:
-
-   ```
-   python3 --version
-   ```
-
-   This should output some information on the installed Python version.
-   You can also install python by following these instructions: https://installpython3.com/
-
-2. You are expected to write the code in `task.py` file.
-
-3. Once you are done with the changes you should be able to execute the task app by running the following command from the terminal.
-
-   **On Windows:**
-
-   ```
-   .\task.bat
-   ```
-
-   **On \*nix:**
-
-   ```
-   ./task.sh
-   ```
-## Run Automated Tests
-
-### 1. Install Node.js
-
-You need to have npm installed in your computer for this problem. It comes with Node.js and you can get it by installing Node from https://nodejs.org/en/
-
-### 2. Install dependencies
-
-Run `npm install` to install all dependencies.
-
-### 3. Create Create symbolic link to the executable file
-
-#### On Windows
-
-To create a symbolic link on Windows, you'll need to run either the Windows Command Prompt, or Windows Powershell **with administrator privileges**. To do so, right-click on the icon for Command Prompt, or Powershell, and choose the _"Run as Administrator"_ option.
-
-**Command Prompt:**
-
-```
-> mklink task task.bat
-```
-
-**Powershell:**
-
-```
-> cmd /c mklink task task.bat
-```
-
-#### On \*nix:
-
-Run the following command in your shell:
-
-```
-$ ln -s task.sh task
-```
-
-### 4. Try running tests.
-
-Now run `npm test` and you will see all the tests failing. As you fill in each functionality, you can re-run the tests to see them passing one by one.
-
-## A Note about `/` for Windows Users
-
-In the following sections, you'll see many commands prefixed with `./`, or paths containing the `/` (forward-slash) character.
-
-If you're using the Windows _Command Prompt_, then you'll need to replace `/` with `\` (back-slash) for these commands and paths to work as expected.
-
-On Windows _Powershell_, these substitutions are not required.
-
-## Known Issues
-
-A few notes to help you avoid any hiccups while implementing the programming challenge:
-
-1. If you are on Windows, you might have difficulty getting the tests to pass because of newline UTF encoding issues. If you get stuck, please [refer to the thread here](https://github.com/nseadlc-2020/package-todo-cli-task/issues/12).
-
-2. In Windows machines, the `make` command might not exist and can prevent you from running the tests. This can be fixed [by using WSL, or installing MinGW, among other options](https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows).
-
-## Specification
+## Commands
 
 1. The app can be run in the console with `./task`.
 
@@ -237,5 +147,5 @@ Completed : 3
 3. yet another completed task
 ```
 
-Developer's message - Hello Sir/Ma'am, I have made some changes in the task.test.js file I had to do this because I was getting an error when I tried to run the test file. The problem I found test are not clearing the pre saved data. I have tried to clear the data using the exit command but it didn't work. So, i used the delete function in task.test.js file to clear the data.
-# python-task-manager-
+
+

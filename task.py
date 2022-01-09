@@ -1,14 +1,6 @@
 #!/usr/bin/python3
 
-# Developer's message - Hello Sir/Ma'am, I have made some changes in the task.test.js file 
-# I had to do this because I was getting an error when I tried to run the test file. The problem I found 
-# test are not clearing the pre saved data. I have tried to clear the data using the exit command but it
-# didn't work. So, i used the delete function in task.test.js file to clear the data. 
-
-# Thank you for the task. It was a great experience and I enjoyed it a lot. Also, I learned a lot about command line Interface. 
-
  
-
 import sys
 import argparse
 import os
